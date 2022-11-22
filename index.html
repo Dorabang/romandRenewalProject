@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rom&nd</title>
+
+    <!--opengraph-->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="rom&nd">
+    <meta property="og:url" content="http://rom&nd.dothome.co.kr">
+    <meta property="og:image" content="images/common/romand_og.jpg">
+    <meta property="og:description" content="Beauty holic's favorite
+    all-day beauty rom&nd">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/common/romand_fav.ico">
+
+    <!-- font -->
+    <link rel="stylesheet" href="css/font.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- js -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/common.js"></script>
+</head>
+
+<body>
+
+    <div id="wrap">
+        <div class="popup">
+            <a href="#">신규 가입 시 3,000포인트 지급!</a>
+            <i class="bi bi-x-lg popup_close" aria-label="팝업 닫기"></i>
+        </div> <!-- popup -->
+
+        <header id="header">
+            <div class="inner">
+                <nav>
+                    <ul class="gnb clearfix">
+                        <li>
+                            <a href="./sub/shop.html">Shop</a>
+                            <ul class="depth2">
+                                <li><a href="./sub/shop.html">All</a></li>
+                                <li><a href="./sub/shop.html">Base</a></li>
+                                <li><a href="./sub/shop.html">Eye</a></li>
+                                <li><a href="./sub/shop.html">Lip</a></li>
+                                <li><a href="./sub/shop.html">Nail</a></li>
+                                <li><a href="./sub/shop.html">Tool</a></li>
+                                <li><a href="./sub/shop.html">Set</a></li>
+                                <li><a href="./sub/shop.html">Edition</a></li>
+                            </ul> <!-- depth2 -->
+                        </li>
+                        <li>
+                            <a href="./sub/event.html">Event</a>
+                            <ul class="depth2">
+                                <li><a href="./sub/event.html">진행 중 이벤트</a></li>
+                                <li><a href="./sub/event.html">당첨자 발표</a></li>
+                            </ul> <!-- depth2 -->
+                        </li>
+                        <li>
+                            <a href="./sub/community.html">Community</a>
+                            <ul class="depth2">
+                                <li><a href="./sub/community.html">FAQ</a></li>
+                                <li><a href="./sub/community.html">상품 문의</a></li>
+                                <li><a href="./sub/community.html">베스트 후기</a></li>
+                                <li><a href="./sub/community.html">실시간 후기</a></li>
+                            </ul> <!-- depth2 -->
+                        </li>
+                        <li>
+                            <a href="./sub/brand.html">Brand</a>
+                            <ul class="depth2">
+                                <li><a href="./sub/brand.html">Brand Story</a></li>
+                                <li><a href="./sub/brand.html">rom&nd 소식</a></li>
+                                <li><a href="./sub/brand.html">romandyou</a></li>
+                            </ul> <!-- depth2 -->
+                        </li>
+                    </ul> <!-- gnb -->
+
+                    <div class="ham">
+                        <i class="bi bi-list" aria-label="모바일 메뉴"></i>
+                    </div> <!-- ham -->
+                </nav>
+
+                <h1><a href="index.html"><img src="./images/common/romand_logo.png" alt="rom&nd"></a></h1>
+
+                <ul class="util clearfix">
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">My page</a></li>
+                    <li><a href="#"><i class="bi bi-cart" aria-label="장바구니"></i></a></li>
+                    <li><a href="#" class="search"><i class="bi bi-search" aria-label="검색"></i></a></li>
+                </ul> <!-- util -->
+            </div> <!-- inner -->
+
+            <div class="mgnb_wrap">
+                <ul class="mgnb">
+                    <li>
+                        <h2>Shop</h2>
+                        <ul class="mdepth2">
+                            <li><a href="./sub/shop.html">All</a></li>
+                            <li><a href="./sub/shop.html">Base</a></li>
+                            <li><a href="./sub/shop.html">Eye</a></li>
+                            <li><a href="./sub/shop.html">Lip</a></li>
+                            <li><a href="./sub/shop.html">Nail</a></li>
+                            <li><a href="./sub/shop.html">Tool</a></li>
+                            <li><a href="./sub/shop.html">Set</a></li>
+                            <li><a href="./sub/shop.html">Edition</a></li>
+                        </ul> <!-- mdepth2 -->
+                    </li>
+                    <li>
+                        <h2>Event</h2>
+                        <ul class="mdepth2">
+                            <li><a href="./sub/event.html">진행 중 이벤트</a></li>
+                            <li><a href="./sub/event.html">당첨자 발표</a></li>
+                        </ul> <!-- mdepth2 -->
+                    </li>
+                    <li>
+                        <h2>Community</h2>
+                        <ul class="mdepth2">
+                            <li><a href="./sub/community.html">FAQ</a></li>
+                            <li><a href="./sub/community.html">상품 문의</a></li>
+                            <li><a href="./sub/community.html">베스트 후기</a></li>
+                            <li><a href="./sub/community.html">실시간 후기</a></li>
+                        </ul> <!-- mdepth2 -->
+                    </li>
+                    <li>
+                        <h2>Brand</h2>
+                        <ul class="mdepth2">
+                            <li><a href="./sub/brand.html">Brand Story</a></li>
+                            <li><a href="./sub/brand.html">rom&nd 소식</a></li>
+                            <li><a href="./sub/brand.html">romandyou</a></li>
+                        </ul> <!-- mdepth2 -->
+                    </li>
+                </ul> <!-- mgnb -->
+                <i class="bi bi-x-lg mgnb_close" aria-label="모바일 메뉴 닫기"></i>
+            </div> <!-- mgnb_wrap -->
+
+            <div class="depth2_bg"></div> <!-- depth2_bg -->
+
+            <div class="search_wrap">
+                <form>
+                    <fieldset>
+                        <legend>검색영역</legend>
+                        <input type="text" placeholder="검색어를 입력하세요."><input type="submit" value="검색">
+                    </fieldset>
+                </form>
+                <div class="search_close">
+                    <i class="bi bi-x-lg" aria-label="검색 영역 닫기"></i>
+                </div>
+            </div> <!-- search -->
+        </header>
+
+        <main id="container">
+            <section id="main_visual">
+                <div class="inner">
+                    <div class="swiper mb">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide bg1">
+                                <a href="#">
+                                    <div class="mb_txt">
+                                        <h2>muteral Nude.</h2>
+                                        <p>rom&nd만의 새로운 컬러,<br>Muteral Color를 지금 만나보세요.</p>
+                                    </div> <!-- mb_txt -->
+                                    <div class="mb_img">
+                                        <img src="./images/main/main_banner1.jpg" alt="">
+                                        <img src="./images/main/mb_tablet1.jpg" alt="">
+                                        <img src="./images/main/mb_mobile1.jpg" alt="">
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="swiper-slide bg2">
+                                <a href="#">
+                                    <div class="mb_txt">
+                                        <h2>Better than Cheek.</h2>
+                                        <p>새롭게 리뉴얼된 Best Seller 1위 제품,<br>지금 만나보세요!</p>
+                                    </div> <!-- mb_txt -->
+                                    <div class="mb_img">
+                                        <img src="./images/main/main_banner2.jpg" alt="">
+                                        <img src="./images/main/mb_tablet2.jpg" alt="">
+                                        <img src="./images/main/mb_mobile2.jpg" alt="">
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="swiper-slide bg3">
+                                <a href="#">
+                                    <div class="mb_txt">
+                                        <h2>mood pebble Nail.</h2>
+                                        <p>그윽하게 녹아드는 분위기 한 콧,<br>톤온톤 누드 컬러 네일</p>
+                                    </div> <!-- mb_txt -->
+                                    <div class="mb_img">
+                                        <img src="./images/main/main_banner3.jpg" alt="">
+                                        <img src="./images/main/mb_tablet3.jpg" alt="">
+                                        <img src="./images/main/mb_mobile3.jpg" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul> <!-- swiper-wrapper -->
+
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+
+                        <div class="mb_play"><i class="bi bi-play-fill"></i></div>
+                        <div class="mb_pause"><i class="bi bi-pause-fill"></i></div>
+                    </div> <!-- swiper -->
+                </div> <!-- inner -->
+            </section> <!-- main_visual -->
+
+
+            <section id="prod" data-aos="fade-up" data-aos-duration="1000">
+                <div class="inner">
+                    <div class="sub_title">
+                        <h2>Best Seller</h2>
+                        <p>rom&nd만의 새로운 색감이 담긴,<br>베스트 상품들을 만나보세요.</p>
+                    </div> <!-- sub_title -->
+
+                    <div class="swiper pb">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide pb1">
+                                <i class="bi bi-heart"></i>
+                                <i class="bi bi-heart-fill"></i>
+                                <a href="#">
+                                    <div class="prod_img">
+                                        <span class="new">New</span>
+                                        <span class="hot">Hot</span>
+
+                                        <img src="./images/main/prod_1.jpg" alt="롬앤 제로 매트 립스틱 사진">
+                                    </div> <!-- prod_img -->
+                                    <div class="prod_info">
+                                        <h3>롬앤 제로 매트 립스틱</h3>
+                                        <div class="price">
+                                            <p>12,900원</p>
+                                            <p>8,900<span>원</span></p>
+                                        </div> <!-- price -->
+                                    </div> <!-- prod_info -->
+                                </a>
+                            </li>
+                            <li class="swiper-slide pb2">
+                                <i class="bi bi-heart"></i>
+                                <i class="bi bi-heart-fill"></i>
+                                <a href="#">
+                                    <div class="prod_img">
+                                        <span class="hot">Hot</span>
+
+                                        <img src="./images/main/prod_2.jpg" alt="롬앤 듀이풀 워터 틴트 사진">
+                                    </div> <!-- prod_img -->
+                                    <div class="prod_info">
+                                        <h3>롬앤 듀이풀 워터 틴트</h3>
+                                        <div class="price">
+                                            <p>13,000원</p>
+                                            <p>8,900<span>원</span></p>
+                                        </div> <!-- price -->
+                                    </div> <!-- prod_info -->
+                                </a>
+                            </li>
+                            <li class="swiper-slide pb3">
+                                <i class="bi bi-heart"></i>
+                                <i class="bi bi-heart-fill"></i>
+                                <a href="#">
+                                    <div class="prod_img">
+                                        <span class="new">New</span>
+                                        <span class="hot">Hot</span>
+
+                                        <img src="./images/main/prod_3.jpg" alt="롬앤 베러 댄 치크 #리뉴얼 사진">
+                                    </div> <!-- prod_img -->
+                                    <div class="prod_info">
+                                        <h3>롬앤 베러 댄 치크 #리뉴얼</h3>
+                                        <div class="price">
+                                            <p>12,000원</p>
+                                            <p>9,600<span>원</span></p>
+                                        </div> <!-- price -->
+                                    </div> <!-- prod_info -->
+                                </a>
+                            </li>
+                            <li class="swiper-slide pb1">
+                                <i class="bi bi-heart"></i>
+                                <i class="bi bi-heart-fill"></i>
+                                <a href="#">
+                                    <div class="prod_img">
+                                        <span class="new">New</span>
+                                        <span class="hot">Hot</span>
+
+                                        <img src="./images/main/prod_4.jpg" alt="롬앤 쥬시 래스팅 틴트 사진">
+                                    </div> <!-- prod_img -->
+                                    <div class="prod_info">
+                                        <h3>롬앤 쥬시 래스팅 틴트</h3>
+                                        <div class="price">
+                                            <p>13,000원</p>
+                                            <p>8,900<span>원</span></p>
+                                        </div> <!-- price -->
+                                    </div> <!-- prod_info -->
+                                </a>
+                            </li>
+                            <li class="swiper-slide pb3">
+                                <i class="bi bi-heart"></i>
+                                <i class="bi bi-heart-fill"></i>
+                                <a href="#">
+                                    <div class="prod_img">
+                                        <span class="new">New</span>
+                                        <span class="hot">Hot</span>
+                                        <img src="./images/main/prod_5.jpg" alt="롬앤 무드 페블 네일 사진">
+                                    </div> <!-- prod_img -->
+                                    <div class="prod_info">
+                                        <h3>롬앤 무드 페블 네일</h3>
+                                        <div class="price">
+                                            <p>12,900원</p>
+                                            <p>8,900<span>원</span></p>
+                                        </div> <!-- price -->
+                                    </div> <!-- prod_info -->
+                                </a>
+                            </li>
+                        </ul> <!-- swiper-wrapper -->
+                    </div> <!-- swiper pb -->
+
+                    <div class="btn_more">
+                        <a href="./sub/shop.html">see more <i class="bi bi-arrow-right"></i></a>
+                    </div> <!-- btn_more -->
+
+                </div> <!-- inner -->
+            </section> <!-- prod -->
+
+
+            <div class="marquee clearfix">
+                <div>
+                    <span>rom&nd &nbsp; rom&nd &nbsp; rom&nd &nbsp; rom&nd &nbsp; rom&nd &nbsp; rom&nd &nbsp; rom&nd &nbsp; rom&nd &nbsp; rom&nd rom&nd</span>
+                    <span>rom&nd &nbsp; rom&nd &nbsp; rom&nd &nbsp; rom&nd &nbsp; rom&nd &nbsp; rom&nd &nbsp; rom&nd &nbsp; rom&nd &nbsp; rom&nd rom&nd</span>
+                </div>
+            </div> <!-- marquee clearfix -->
+
+
+            <section id="event" data-aos="fade-up" data-aos-duration="1000">
+                <div class="inner">
+                    <div class="sub_title">
+                        <h2>Event</h2>
+                        <p>진행되고 있는 rom&nd 이벤트에<br>지금 바로 참여해보세요!</p>
+                    </div> <!-- sub_title -->
+
+                    <div class="swiper eb">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide eb1"><a href="#">
+                                    <div class="event_img">
+                                        <img src="./images/main/event_1.jpg" alt="롬앤 제로 매트 립스틱 사진">
+                                        <div class="event_txt">
+                                            <dl>
+                                                <dt>What’s your NUDE?</dt>
+                                                <dd>2022.09.28(수) ~ 09.30(금)</dd>
+                                            </dl>
+                                        </div> <!-- event_txt -->
+                                    </div> <!-- event_img -->
+
+                                </a>
+                            </li>
+                            <li class="swiper-slide eb2"><a href="#">
+                                    <div class="event_img">
+                                        <img src="./images/main/event_2.jpg" alt="롬앤 베러 댄 치크 사진">
+                                        <div class="event_txt">
+                                            <dl>
+                                                <dt>The Better Cheek 베러 댄 치크 #힛팬체험단 모집</dt>
+                                                <dd>2022.09.08(목) ~ 09.12(월)</dd>
+                                            </dl>
+                                        </div> <!-- event_txt -->
+                                    </div> <!-- event_img -->
+
+                                </a>
+                            </li>
+                            <li class="swiper-slide eb3"><a href="#">
+                                    <div class="event_img">
+                                        <img src="./images/main/event_3.jpg" alt="롬앤 한올 쉐이드 라이너 사진">
+                                        <div class="event_txt">
+                                            <dl>
+                                                <dt>롬앤 NEW 한올 쉐이드 라이너 Coming Soon!</dt>
+                                                <dd>2022.08.20(토) ~ 08.22(월)</dd>
+                                            </dl>
+                                        </div> <!-- event_txt -->
+                                    </div> <!-- event_img -->
+                                </a>
+                            </li>
+                            <li class="swiper-slide eb1"><a href="#">
+                                    <div class="event_img">
+                                        <img src="./images/main/event_4.jpg" alt="롬앤 듀이풀 워터 틴트 사진">
+                                        <div class="event_txt">
+                                            <dl>
+                                                <dt>롬앤 듀이풀 워터 틴트 Coming Soon!</dt>
+                                                <dd>2022.08.20(토) ~ 08.22(월)</dd>
+                                            </dl>
+                                        </div> <!-- event_txt -->
+                                    </div> <!-- event_img -->
+                                </a>
+                            </li>
+                            <li class="swiper-slide eb3"><a href="#">
+                                    <div class="event_img">
+                                        <img src="./images/main/event_5.jpg" alt="롬앤 촉촉쿠션 사진">
+                                        <div class="event_txt">
+                                            <dl>
+                                                <dt>롬앤 NEW #촉촉쿠션 체험단 모집</dt>
+                                                <dd>2022.10.28(금) ~ 10.30(일)</dd>
+                                            </dl>
+                                        </div> <!-- event_txt -->
+                                    </div> <!-- event_img -->
+                                </a>
+                            </li>
+                        </ul> <!-- swiper-wrapper -->
+                    </div> <!-- swiper eb -->
+
+                    <div class="btn_more">
+                        <a href="./sub/event.html">see more <i class="bi bi-arrow-right"></i></a>
+                    </div> <!-- btn_more -->
+
+                </div> <!-- inner -->
+            </section> <!-- event -->
+
+
+            <section id="brand" data-aos="fade-right" data-aos-duration="1000">
+                <div class="inner">
+                    <div class="sub_title">
+                        <h2>rom&nd’s<br>Brand Story</h2>
+                        <div class="btn_more">
+                            <a href="./sub/brand.html">see more <i class="bi bi-arrow-right"></i></a>
+                        </div> <!-- btn_more -->
+                    </div> <!-- sub_title -->
+                    <video src="./images/main/brand_bg.mp4" autoplay muted loop></video>
+                </div> <!-- inner -->
+            </section> <!-- brand -->
+
+
+            <section id="sns" data-aos="fade-left" data-aos-duration="1000">
+                <div class="inner clearfix">
+                    <div class="sns_wrap">
+                        <div class="sub_title">
+                            <h2>romandyou</h2>
+                            <p>rom&nd 공식 SNS 계정에서<br>더욱 더 자세하고 유용한 정보를 얻어가세요!</p>
+                        </div> <!-- sub_title -->
+
+                        <div class="swiper sb">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a href="#">
+                                        <div class="sb_img">
+                                            <img src="./images/main/sns_1.jpg" alt="무드페블네일 사진">
+                                        </div> <!-- sb_img -->
+                                        <p>#NEW #무드페블네일 #4종</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#">
+                                        <div class="sb_img">
+                                            <img src="./images/main/sns_2.jpg" alt="무드페블네일 사진">
+                                        </div> <!-- sb_img -->
+                                        <p>#베러댄치크 #롬박싱 #기획세트</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#">
+                                        <div class="sb_img">
+                                            <img src="./images/main/sns_3.jpg" alt="무드페블네일 사진">
+                                        </div> <!-- sb_img -->
+                                        <p>#제로매트립스틱 #오버립튜토리얼</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#">
+                                        <div class="sb_img">
+                                            <img src="./images/main/sns_4.jpg" alt="무드페블네일 사진">
+                                        </div> <!-- sb_img -->
+                                        <p>#뮤트럴누드 #컬러비교</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#">
+                                        <div class="sb_img">
+                                            <img src="./images/main/sns_5.jpg" alt="무드페블네일 사진">
+                                        </div> <!-- sb_img -->
+                                        <p>#롬이득꿀팁 #한올샤프브로우</p>
+                                    </a>
+                                </li>
+                            </ul> <!-- swiper-wrapper -->
+                        </div> <!-- swiper sb -->
+
+                        <div class="btn_more">
+                            <a href="https://www.instagram.com/romandyou/">see more <i class="bi bi-arrow-right"></i></a>
+                        </div> <!-- btn_more -->
+                    </div> <!-- sns_wrap -->
+                </div> <!-- inner -->
+            </section> <!-- sns -->
+        </main> <!-- container -->
+
+
+        <footer id="footer">
+            <div class="inner">
+                <div class="footer_logo">
+                    <img src="./images/common/romand_logo.png" alt="romand">
+                </div> <!-- footer_logo -->
+
+                <ul class="footer_sns clearfix">
+                    <li class="a" href="#"><img src="./images/common/footer_youtube.jpg" alt="youtube"></li>
+                    <li class="a" href="#"><img src="./images/common/footer_insta.jpg" alt="instagram"></li>
+                    <li class="a" href="#"><img src="./images/common/footer_blog.jpg" alt="blog"></li>
+                    <li class="a" href="#"><img src="./images/common/footer_facebook.jpg" alt="facebook"></li>
+                    <li class="a" href="#"><img src="./images/common/footer_katalk.jpg" alt="kakaotalk"></li>
+                </ul> <!-- footer_sns -->
+
+                <div class="footer_txt">
+                    <ul class="footer_link clearfix">
+                        <li><a href="#">개인정보보호정책</a></li>
+                        <li><a href="#">이용약관동의</a></li>
+                    </ul> <!-- footer_link -->
+
+                    <div class="footer_info">
+                        <address>(주)아이패밀리SC<br>
+                            서울특별시 송파구 동남로 122(문정동) COLLECTED 빌딩<span>Tel : 02.1670.2238</span><span>Fax :
+                                02.6910.4111</span><br>사업자등록번호 : 120-86-00633<span>통신판매신고번호 :
+                                제2022-서울송파-1690호</span><span>대표자 : 김태욱, 김성현</span></address>
+                        <p class="copy">&copy; 2017 IFAMILY SC, CO.,LTD.All Right Reserved.</p>
+                    </div> <!-- footer_info -->
+                </div> <!-- footer_txt -->
+            </div> <!-- inner -->
+        </footer>
+
+        <div class="gotop">Top</div> <!-- gotop -->
+    </div> <!-- wrap -->
+
+</body>
+
+</html>
